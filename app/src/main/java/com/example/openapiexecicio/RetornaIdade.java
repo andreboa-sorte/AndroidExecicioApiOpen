@@ -44,7 +44,6 @@ public class RetornaIdade extends AppCompatActivity {
                 }
                 @Override
                 protected void onPostExecute(com.example.openapiexecicio.Pessoa pessoa){
-                    //System.out.println(pessoa);
                     nome.setText(nomeEnvia);
                     idade.setText(pessoa.getIdade());
 
